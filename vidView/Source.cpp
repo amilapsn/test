@@ -32,9 +32,6 @@ int main(int argc, char* argv[])
 	cout << "Frame per seconds : " << fps << endl;
 
 	namedWindow("MyVideo", CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
-	double counter = 1;
-	double total=0,time_ = 0;
-	double actual_fps = fps;
 	for (;;)
 	{
 		Mat frame;		
