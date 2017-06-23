@@ -60,7 +60,8 @@ int main(int argc, char* argv[])
 	double actual_fps = fps;
 	for (;;)
 	{
-		
+		/*GetSystemTime(&time);
+		LONG time_ms2 = (time.wSecond * 1000) + time.wMilliseconds;*/
 		Mat frame;
 		//Mat frame2;
 		StartCounter();
